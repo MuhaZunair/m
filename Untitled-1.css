@@ -1,0 +1,39 @@
+/* 2 css.css */
+
+/* Style for the header */
+header {
+    background-color: #333; /* Change to your desired background color */
+    color: #fff; /* Change to your desired text color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the logo text */
+.logo div {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold;
+}
+
+/* Style for the menu bar (optional) */
+.menu-bar {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-bar li {
+    display: inline;
+    margin-right: 20px; /* Adjust the spacing as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    text-transform: uppercase;
+}
+
+/* Style for links in the menu (optional) */
+.menu-bar li a {
+    color: #fff; /* Change to your desired link color */
+    text-decoration: none;
+}
+
+/* Add hover effect for links (optional) */
+.menu-bar li a:hover {
+    text-decoration: underline;
+}

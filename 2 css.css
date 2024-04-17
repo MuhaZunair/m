@@ -1,0 +1,98 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+header {
+  list-style-type: none;
+  display: flex;
+  gap: 560px;
+  justify-content: end;
+  align-items: flex-end;
+  position: relative;
+}
+  
+  
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  justify-content: center;
+  justify-content: end;
+  display: contents;
+}
+  
+
+.menu-bar {
+    list-style-type: none;
+    display: flex;  
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.container {
+    background: linear-gradient(teal, blue, green);
+    margin: 0px;
+    position: relative; /* Add this line */
+  }
+  
+.text-area {
+    text-align: center;
+  }
+  
+  .h4 {
+    color: #6c757d;
+  }
+  
+  .h1 {
+    color: #343a40;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .image-area {
+    height: 300px;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    
+    
+    
+  }
+  
+  .image-area img {
+    filter: grayscale(1);
+    width: auto; /* Add this line */
+    padding: 0 10 0 10;
+
+  }
+  
+  .image-area img:hover {
+    filter: grayscale(0);
+    transition: 0.5s ease-in;
+    height: 50%;
+  }
+  
+
+
+  
+.image-area {
+  flex: 5; /* Add this line to make the image area take up remaining space */
+  display: flex;
+  justify-content: flex-end; /* Align the image to the right */
+  align-items: center; /* Vertically center the image */
+
+}
+
+.image-area img {
+  max-width: 500%; /* Ensure the image doesn't exceed the container's width */
+  max-height: 500%; /* Ensure the image doesn't exceed the container's height */
+}
